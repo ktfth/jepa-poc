@@ -1,2 +1,30 @@
-v2-temporal-patterns.obj
-jepa_temporal.exe
+# Compiled C++ files
+*.so
+*.o
+*.obj
+*.exe
+*.dll
+*.dylib
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.log
+
+# Project specific
+test_pure_cpp
+jepa_temporal
